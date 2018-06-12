@@ -1,11 +1,10 @@
 /********** Base styles **********/
 * {
   box-sizing: border-box;
+  font-family: monospace;
   margin: 0;
   padding: 0;
-  font-family: monospace;
 }
-
 
 h1 {
   margin-top: 15px;
@@ -20,16 +19,15 @@ p {
 }
 section {
     background-color: #C0C0C0;
-    margin: 10px 5px 0px 5px;
+    margin: 20px 10px 0px 10px;
 }
 
 .container {
-margin: 0px 5px 0px 5px;
+margin: 0px 10px 0px 10px;
 }
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
-
 }
 
 /* Section Title*/
@@ -73,7 +71,7 @@ background-color :#F5F5DC;
   }
   .col-lg-4 {
     /* width: 33.33%; */
-    width: calc(33.33% - 10px);
+    width: calc(33.33% - 20px);
   }
   .col-lg-5 {
     width: 41.66%;
@@ -125,7 +123,7 @@ background-color :#F5F5DC;
   }
   .col-md-6 {
      /* width: 50%; */
-    width: calc(50% - 10px);
+    width: calc(50% - 20px);
   }
   .col-md-7 {
     width: 58.33%;
@@ -144,7 +142,7 @@ background-color :#F5F5DC;
   }
   .col-md-12 {
       /* width: 100%;*/
-    width: calc(100% - 10px);
+    width: calc(100% - 20px);
   }
 }
 
@@ -189,6 +187,6 @@ background-color :#F5F5DC;
   }
   .col-xs-12 {
     /* width: 100%;*/
-    width: calc(100% - 10px);
+    width: calc(100% - 20px);
   
 }
