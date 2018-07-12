@@ -31,10 +31,6 @@ h1 {
 	background-color: #000;
 }
 
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-
-}
 /********** small devices only **********/
 @media (max-width: 768px) {
 .container-main {
