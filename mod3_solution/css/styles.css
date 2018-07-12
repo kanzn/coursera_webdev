@@ -1,24 +1,17 @@
-/* START NAVBAR */
-. {
-}
-body {
-}
 
 .menu {
 	background-color: gray;
-	margin: 15px 30px;
 	height: 1000px;
 
 }
-.menu-title {
-	text-align: center;
-	color: black;
-	font-size: 1.3em; 
+.menu h4 {
+	color: #000;
 	font-weight: bold;
 	padding: 5px 0px;
 }
-.menu-content {
+.menu p {
 	padding: 0 20px 20px;
+	color: #000;
 }
 
 h1 {
@@ -26,14 +19,26 @@ h1 {
 }
 
 .navbar {
-	 
-	}
+		border-radius: 0;
+}
+
+.navbar-default .navbar-brand {
+	color: #000;
+
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #000;
+}
+
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
 
 }
 /********** small devices only **********/
-@media (max-width: 767) {
-
+@media (max-width: 768px) {
+.container-main {
+margin: 0 50px ;
+	}
 }
 
